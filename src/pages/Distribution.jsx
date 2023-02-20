@@ -3,16 +3,14 @@ import Logo from "../assets/img/logo.png";
 import TuneCore from "../assets/img/TuneCore.png";
 import DistroKid from "../assets/img/Distrokid.png";
 import { MdKeyboardArrowLeft } from "react-icons/md";
+import Header from "../Components/Header";
+import Footer from "../Components/Footer";
 
 const Distribution = () => {
   return (
     <div className="approkyou">
       {/* HEADER  */}
-      <header>
-        <div className="headerbox">
-          <img src={Logo} alt="" />
-        </div>
-      </header>
+      <Header />
       {/* MAIN CONTENT  */}
       <div className="box">
         <div className="main-content">
@@ -52,6 +50,8 @@ const Distribution = () => {
           </div>
         </div>
       </div>
+      {/* FOOTER  */}
+      <Footer />
     </div>
   );
 };

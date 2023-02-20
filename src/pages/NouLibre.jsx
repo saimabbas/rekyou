@@ -1,16 +1,14 @@
 import React from "react";
 import Logo from "../assets/img/logo.png";
 import { MdKeyboardArrowLeft } from "react-icons/md";
+import Header from "../Components/Header";
+import Footer from "../Components/Footer";
 
 const NouLibre = () => {
   return (
     <div className="approkyou">
       {/* HEADER  */}
-      <header>
-        <div className="headerbox">
-          <img src={Logo} alt="" />
-        </div>
-      </header>
+      <Header />
       {/* MAIN CONTENT  */}
       <div className="box">
         <div className="main-content">
@@ -45,6 +43,8 @@ const NouLibre = () => {
           <button className="red-fill-btn">Créer un projet</button>
         </div>
       </div>
+      {/* FOOTER  */}
+      <Footer />
     </div>
   );
 };

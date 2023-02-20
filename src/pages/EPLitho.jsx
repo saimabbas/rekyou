@@ -1,16 +1,13 @@
 import React from "react";
 import Logo from "../assets/img/logo.png";
 import { MdKeyboardArrowLeft, MdAdd } from "react-icons/md";
+import Header from "../Components/Header";
 
 const EPLitho = () => {
   return (
     <div className="approkyou">
       {/* HEADER  */}
-      <header>
-        <div className="headerbox">
-          <img src={Logo} alt="" />
-        </div>
-      </header>
+      <Header />
       {/* MAIN CONTENT  */}
       <div className="box">
         <div className="main-content">
@@ -85,6 +82,8 @@ const EPLitho = () => {
           </div>
         </div>
       </div>
+      {/* FOOTER  */}
+      <Footer />
     </div>
   );
 };

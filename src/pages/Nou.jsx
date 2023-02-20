@@ -1,16 +1,14 @@
 import React from "react";
 import Logo from "../assets/img/logo.png";
 import { MdKeyboardArrowLeft } from "react-icons/md";
+import Header from "../Components/Header";
+import Footer from "../Components/Footer";
 
 const Nou = () => {
   return (
     <div className="approkyou">
       {/* HEADER  */}
-      <header>
-        <div className="headerbox">
-          <img src={Logo} alt="" />
-        </div>
-      </header>
+      <Header />
       {/* MAIN CONTENT  */}
       <div className="box">
         <div className="main-content">
@@ -39,6 +37,8 @@ const Nou = () => {
           </div>
         </div>
       </div>
+      {/* FOOTER  */}
+      <Footer />
     </div>
   );
 };

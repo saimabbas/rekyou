@@ -1,16 +1,16 @@
 import React from "react";
-import Logo from "../src/assets/img/logo.png";
-import { MdAdd } from "react-icons/md";
+import Logo from "../assets/img/logo.png";
+import { MdAdd, MdFacebook } from "react-icons/md";
+import { FaFacebookSquare } from "react-icons/fa";
+import { BsInstagram } from "react-icons/bs";
+import Footer from "../Components/Footer";
+import Header from "../Components/Header";
 
 const Mes = () => {
   return (
     <div className="approkyou">
       {/* HEADER  */}
-      <header>
-        <div className="headerbox">
-          <img src={Logo} alt="" />
-        </div>
-      </header>
+      <Header />
       {/* MAIN CONTENT  */}
       <div className="box">
         <div className="main-content">
@@ -49,6 +49,8 @@ const Mes = () => {
           </div>
         </div>
       </div>
+      {/* FOOTER  */}
+      <Footer />
     </div>
   );
 };

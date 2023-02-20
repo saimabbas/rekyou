@@ -39,6 +39,7 @@
 }
 
 header {
+  background-color: #000000;
   width: 100%;
 }
 .headerbox {
@@ -47,7 +48,6 @@ header {
   align-items: center;
   width: 100%;
   padding: 2.25rem 0;
-  background-color: #000000;
 }
 .headerbox img {
   width: 10rem;
@@ -425,4 +425,66 @@ header {
   align-items: center;
   justify-content: center;
   width: 100%;
+}
+
+footer {
+  background-color: #000000;
+  padding: 6rem 0;
+}
+.footerbox {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 15rem;
+  padding: 0 0 6rem 0;
+}
+.footerimg {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.footerimg img {
+  width: 40%;
+}
+.footer-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fsocial svg {
+  font-size: 2.65rem;
+  color: #ffffff;
+  margin: 0 2.5rem 0 0;
+}
+.flang {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flang p {
+  font-size: 2rem;
+  color: #ffffff;
+  font-weight: 500;
+  margin: 0 2.5rem 0 0;
+  cursor: pointer;
+}
+.flang p:hover {
+  text-decoration: underline;
+}
+.footer-content h6 {
+  font-size: 2rem;
+  color: #ffffff;
+  font-weight: 400;
+  text-decoration: underline;
+  padding: 2rem 0 0 0;
+  cursor: pointer;
+}
+footer h5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 1.75rem;
+  color: #ffffff;
+  font-weight: 400;
 }
