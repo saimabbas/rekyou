@@ -22,7 +22,7 @@ const Enregistrement1 = () => {
           <div className="mc-heading">
             <h3>Enregistrement du morceau 1</h3>
           </div>
-          <div className="mc-grid">
+          <div className="mc-grid mcg-labinp">
             <div className="lab-inp">
               <label htmlFor="inp2">Lieu/adresse</label>
               <input type="text" name="inp2" id="" placeholder="Aria Records" />

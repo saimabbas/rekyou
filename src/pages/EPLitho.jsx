@@ -2,6 +2,7 @@ import React from "react";
 import Logo from "../assets/img/logo.png";
 import { MdKeyboardArrowLeft, MdAdd } from "react-icons/md";
 import Header from "../Components/Header";
+import Footer from "../Components/Footer";
 
 const EPLitho = () => {
   return (
