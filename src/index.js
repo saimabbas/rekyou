@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./css/style.css";
-import Tache from "./pages/Tache";
+import Links from "./pages/Links";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Tache />
+    <Links />
   </React.StrictMode>
 );
