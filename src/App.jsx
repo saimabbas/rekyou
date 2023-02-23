@@ -1,5 +1,11 @@
 import React from "react";
-import { BrowserRouter as Switch, Route, Routes } from "react-router-dom";
+import {
+  BrowserRouter as Switch,
+  Routes,
+  Route,
+  Router,
+  useLocation,
+} from "react-router-dom";
 import Links from "./pages/Links";
 import Ajouter from "./pages/Ajouter";
 import Budget from "./pages/Budget";
@@ -18,27 +24,27 @@ import Tache from "./pages/Tache";
 
 const App = () => {
   return (
-    <div>
+    <>
       <Switch>
         <Routes>
           <Route exact path="/" element={<Links />} />
-          <Route path="/ajouter" element={<Ajouter />} />
-          <Route path="/budget" element={<Budget />} />
-          <Route path="/distribution" element={<Distribution />} />
-          <Route path="/enregistrement" element={<Enregistrement />} />
-          <Route path="/enregistrement1" element={<Enregistrement1 />} />
-          <Route path="/eplitho" element={<EPLitho />} />
-          <Route path="/mes" element={<Mes />} />
-          <Route path="/modifier" element={<Modifier />} />
-          <Route path="/modifiertache" element={<ModifierTache />} />
-          <Route path="/nou" element={<Nou />} />
-          <Route path="/noulibre" element={<NouLibre />} />
-          <Route path="/supprimer" element={<Supprimer />} />
-          <Route path="/supprimertache" element={<SupprimerTache />} />
-          <Route path="/tache" element={<Tache />} />
+          <Route exact path="/ajouter" element={<Ajouter />} />
+          <Route exact path="/budget" element={<Budget />} />
+          <Route exact path="/distribution" element={<Distribution />} />
+          <Route exact path="/enregistrement" element={<Enregistrement />} />
+          <Route exact path="/enregistrement1" element={<Enregistrement1 />} />
+          <Route exact path="/eplitho" element={<EPLitho />} />
+          <Route exact path="/mes" element={<Mes />} />
+          <Route exact path="/modifier" element={<Modifier />} />
+          <Route exact path="/modifiertache" element={<ModifierTache />} />
+          <Route exact path="/nou" element={<Nou />} />
+          <Route exact path="/noulibre" element={<NouLibre />} />
+          <Route exact path="/supprimer" element={<Supprimer />} />
+          <Route exact path="/supprimertache" element={<SupprimerTache />} />
+          <Route exact path="/tache" element={<Tache />} />
         </Routes>
       </Switch>
-    </div>
+    </>
   );
 };
 
