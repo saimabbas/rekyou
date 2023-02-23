@@ -15,7 +15,6 @@ import NouLibre from "./pages/NouLibre";
 import SupprimerTache from "./pages/SupprimerTache";
 import Supprimer from "./pages/Supprimer";
 import Tache from "./pages/Tache";
-import { HashRouter } from "react-router-dom";
 
 const App = () => {
   return (
