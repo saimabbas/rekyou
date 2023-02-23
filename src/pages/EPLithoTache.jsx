@@ -1,8 +1,10 @@
 import React from "react";
 import { MdKeyboardArrowLeft, MdAdd } from "react-icons/md";
-import { Tab, Nav } from "react-bootstrap";
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
+import Tab from "react-bootstrap/Tab";
+import Tabs from "react-bootstrap/Tabs";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const EPLithoTache = () => {
   return (
@@ -12,6 +14,22 @@ const EPLithoTache = () => {
       {/* MAIN CONTENT  */}
       <div className="box">
         <div className="main-content">
+          <Tabs
+            defaultActiveKey="profile"
+            id="uncontrolled-tab-example"
+            className="mb-3"
+          >
+            <Tab eventKey="home" title="Home">
+              Tab 1
+            </Tab>
+            <Tab eventKey="profile" title="Profile">
+              Tab 2
+            </Tab>
+            <Tab eventKey="contact" title="Contact">
+              Tab 3
+            </Tab>
+          </Tabs>
+
           <div className="mc-back">
             <span>
               <MdKeyboardArrowLeft />
