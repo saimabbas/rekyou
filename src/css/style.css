@@ -489,6 +489,103 @@ footer h5 {
   font-weight: 400;
 }
 
+.links-page {
+  width: 100%;
+  height: 100vh;
+  padding: 5rem;
+  font-size: 1.75rem;
+  background-color: #221f20;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.links-page a {
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+  margin: 0 0 0.75rem 0;
+}
+.links-page a:hover {
+  text-decoration: underline;
+}
+.links-page a span {
+  text-decoration: underline;
+}
+.mc-heading.eplitho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0 0 5rem 0;
+}
+.mc-heading.eplitho span {
+  color: #000000;
+  font-size: 2.75rem;
+  font-weight: 500;
+  font-family: "Monumentreg";
+}
+.eptac-prog {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #f6f6f6;
+  border-radius: 1000px;
+  height: 1rem;
+}
+.inner-eptac-prog {
+  width: 10%;
+  background-color: #d33949;
+  height: 100%;
+  border-radius: 1000px;
+}
+.tabcontent {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 4rem 6rem;
+  width: 100%;
+  margin: 6rem 0;
+}
+.tabtext {
+  border: 1px solid #dddddd;
+  padding: 3rem 2rem;
+  border-radius: 0.75rem;
+}
+.tabtext p {
+  color: #000000;
+  font-weight: 500;
+  font-size: 2.35rem;
+  width: 60%;
+}
+.aucun-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 6rem 0 0 0;
+}
+.aucun-box p {
+  font-size: 2.25rem;
+  color: #000000;
+  font-weight: 600;
+  margin: 0 0 3rem 0;
+}
+.outline-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #d33949;
+  border-radius: 1000px;
+  font-size: 2.25rem;
+  color: #d33949;
+  font-weight: 500;
+  background-color: #ffffff;
+  padding: 1.5rem 3rem;
+  width: max-content;
+  margin: 0 auto;
+}
 @media screen and (max-width: 1050px) {
   .mc-grid.mc-flex-box {
     width: 40%;
