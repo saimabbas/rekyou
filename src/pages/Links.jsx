@@ -49,6 +49,9 @@ const Links = () => {
       <Link to="/eplithotache">
         15. <span>EPLithoTache</span>
       </Link>
+      <Link to="/mesprojets">
+        16. <span>MesProjets</span>
+      </Link>
     </div>
   );
 };

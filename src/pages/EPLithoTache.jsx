@@ -14,22 +14,6 @@ const EPLithoTache = () => {
       {/* MAIN CONTENT  */}
       <div className="box">
         <div className="main-content">
-          <Tabs
-            defaultActiveKey="profile"
-            id="uncontrolled-tab-example"
-            className="mb-3"
-          >
-            <Tab eventKey="home" title="Home">
-              Tab 1
-            </Tab>
-            <Tab eventKey="profile" title="Profile">
-              Tab 2
-            </Tab>
-            <Tab eventKey="contact" title="Contact">
-              Tab 3
-            </Tab>
-          </Tabs>
-
           <div className="mc-back">
             <span>
               <MdKeyboardArrowLeft />
@@ -52,54 +36,50 @@ const EPLithoTache = () => {
               Ajouter <MdAdd />
             </span>
           </div>
-          {/* <div className="epl-tabs">
-            <Tab.Container defaultActiveKey="a1">
-              <Nav variant="tabs">
-                <Nav.Item>
-                  <Nav.Link eventKey="a1">Same brand</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                  <Nav.Link eventKey="a2">Other cobots</Nav.Link>
-                </Nav.Item>
-              </Nav>
-              <Tab.Content>
-                <Tab.Pane eventKey="a1">
-                  <div>Hi</div>
-                </Tab.Pane>
-                <Tab.Pane eventKey="a1">
-                  <div>Bye</div>
-                </Tab.Pane>
-              </Tab.Content>
-            </Tab.Container>
-          </div> */}
-          <div className="tabcontent">
-            <div className="tabtext">
-              <p>J’ai toutes mes prods</p>
-            </div>
-            <div className="tabtext">
-              <p>Je connais mes textes par coeur</p>
-            </div>{" "}
-            <div className="tabtext">
-              <p>Mes prods sont sur clé USB</p>
-            </div>{" "}
-            <div className="tabtext">
-              <p>Enregistrement du morceau 1</p>
-            </div>{" "}
-            <div className="tabtext">
-              <p>Enregistrement du morceau 2</p>
-            </div>{" "}
-            <div className="tabtext">
-              <p>Enregistrement du morceau 3</p>
-            </div>{" "}
-            <div className="tabtext">
-              <p>Enregistrement du morceau 4</p>
-            </div>
-            <div className="tabtext">
-              <p>Enregistrement du morceau 5</p>
-            </div>
-            <div className="tabtext">
-              <p>Récupérer tous mes morceaux pour le mix</p>
-            </div>
+          <div className="epl-tabs">
+            <Tabs
+              defaultActiveKey="profile"
+              id="uncontrolled-tab-example"
+              className="epltabsbox"
+            >
+              <Tab eventKey="home" title="En cours (9)" className="tabtitle">
+                <div className="tabcontent">
+                  <div className="tabtext">
+                    <p>J’ai toutes mes prods</p>
+                  </div>
+                  <div className="tabtext">
+                    <p>Je connais mes textes par coeur</p>
+                  </div>{" "}
+                  <div className="tabtext">
+                    <p>Mes prods sont sur clé USB</p>
+                  </div>{" "}
+                  <div className="tabtext">
+                    <p>Enregistrement du morceau 1</p>
+                  </div>{" "}
+                  <div className="tabtext">
+                    <p>Enregistrement du morceau 2</p>
+                  </div>{" "}
+                  <div className="tabtext">
+                    <p>Enregistrement du morceau 3</p>
+                  </div>{" "}
+                  <div className="tabtext">
+                    <p>Enregistrement du morceau 4</p>
+                  </div>
+                  <div className="tabtext">
+                    <p>Enregistrement du morceau 5</p>
+                  </div>
+                  <div className="tabtext">
+                    <p>Récupérer tous mes morceaux pour le mix</p>
+                  </div>
+                </div>
+              </Tab>
+              <Tab eventKey="profile" title="Terminées (1)">
+                <div className="aucun-box">
+                  <p>Aucun tâche terminée</p>
+                  <button className="outline-btn">Ajouter une tâche</button>
+                </div>
+              </Tab>
+            </Tabs>
           </div>
         </div>
       </div>

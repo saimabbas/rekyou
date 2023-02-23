@@ -22,6 +22,7 @@ import SupprimerTache from "./pages/SupprimerTache";
 import Supprimer from "./pages/Supprimer";
 import Tache from "./pages/Tache";
 import EPLithoTache from "./pages/EPLithoTache";
+import MesProjets from "./pages/MesProjets";
 
 const App = () => {
   return (
@@ -44,6 +45,7 @@ const App = () => {
           <Route exact path="/supprimertache" element={<SupprimerTache />} />
           <Route exact path="/tache" element={<Tache />} />
           <Route exact path="/eplithotache" element={<EPLithoTache />} />
+          <Route exact path="/mesprojets" element={<MesProjets />} />
         </Routes>
       </Switch>
     </>
